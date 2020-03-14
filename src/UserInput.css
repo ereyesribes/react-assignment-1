@@ -1,0 +1,15 @@
+div.UserInput {
+  padding: 25px;
+  margin: auto;
+
+  max-width: 320px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+div.UserInput > input {
+  border: 1px solid #ccc;
+
+  padding: 12px;
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+}
