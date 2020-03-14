@@ -36,7 +36,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <UserInput changed = { this.userNameChangedHandler.bind(this) } />
+        <UserInput username = { this.state.users[0].username } changed = { this.userNameChangedHandler.bind(this) } />
 
         { outputs }
       </div>
