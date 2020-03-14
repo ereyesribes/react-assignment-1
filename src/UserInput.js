@@ -5,7 +5,7 @@ class UserInput extends Component {
   render() {
     return (
       <div className = "UserInput">
-        <input type = "text" />
+        <input type = "text" onChange = { this.props.changed }/>
       </div>
     );
   }
